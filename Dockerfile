@@ -1,7 +1,6 @@
 FROM golang:1.15.10-alpine3.13 as build
-MAINTAINER michael@kth.se
-LABEL maintainer "michael@kth.se"
-ENV LOGSPOUT_VERSION=3.2.13
+LABEL maintainer "kaiser@itis.swiss"
+ENV LOGSPOUT_VERSION=3.2.14
 RUN mkdir -p /go/src
 WORKDIR /go/src
 VOLUME /mnt/routes

@@ -12,7 +12,6 @@ import (
 	"strings"
 	"syscall"
 	"time"
-	
 	"github.com/gliderlabs/logspout/cfg"
 	"github.com/gliderlabs/logspout/router"
 	"github.com/Graylog2/go-gelf/gelf"
